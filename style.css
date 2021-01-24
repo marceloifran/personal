@@ -1,0 +1,200 @@
+body {
+    background-color: #020c1b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 60px;
+    margin: 20px 20px;
+}
+
+
+.name {
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+
+.per {
+    width: 210px;
+    border-radius: 25px;
+    margin: auto;
+    
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 30px;
+    width: 70%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.about img {
+    border-radius: 25px;
+    width: 300px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about p {
+    margin-left: 120px;
+    text-align: center;
+}
+
+h1 {
+    color: gray;
+    font-size: 70px;
+  
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+}
+
+h3 {
+    color: #64ffda;
+    font-size: 20px;
+}
+
+
+
+h6 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 150px 1200px;
+    margin-bottom: 5px;
+
+}
+
+
+
+.wrap {
+    max-width: 30%;
+    margin-top: 110px;
+    margin-left: 450px;
+    float: left;
+}
+
+.bar {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.bar span {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    background: #fff;
+    border-radius: 50px;
+}
+
+.bar span:before {
+    position: absolute;
+    content: "";
+    top: 6px;
+    left: 5px;
+    width: 80%;
+    height: 50%;
+    background: linear-gradient(to left, #0f3057, #00587a);
+    border-radius: 50px;
+    animation: bar 4s ease;
+}
+
+@keyframes bar {
+    from {
+        width: 0;
+    }
+}
+
+.bar:nth-child(1) span::before {
+    width: 80%;
+}
+
+.bar:nth-child(2) span::before {
+    width: 70%;
+}
+
+.bar:nth-child(3) span::before {
+    width: 70%;
+}
+
+.bar:nth-child(4) span::before {
+    width: 80%;
+}
+
+
+.intereses {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-left: 60%;
+    margin-top: 90px;
+
+    width: 60px;
+}
+
+.intereses img {
+    width: 90px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+.social img {
+    width: 70px;
+    padding: 10px 10px;
+}
+
+.more {
+    float: left;
+    text-align: center;
+    margin-right: 550px;
+    margin-left: 550px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.more p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.more a {
+    color: #64ffda;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 3px solid #64ffda;
+    border-radius: 75px;
+    width: 300px;
+    
+}
+
+
+.final {
+    color: white;
+    font-size: 50px;
+}
+
